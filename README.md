@@ -1,6 +1,6 @@
 # Latent Dirichlet Allocation (LDA)
 
-Simple reusable implementation of LDA in Python.
+Simple reusable implementation of LDA in Python using collapsed Gibbs sampling.
 
 ## Usage
 You'll need to preprocess your documents into a list of lists of tokens `[[str]]`. Then, simply pass this data to the LDA class and choose the number of topics you want to model. See `run.py` for a full example.
